@@ -1,4 +1,4 @@
-# Modul 8 - Subscriber
+# Modul 8 - Publisher
 **Samuel Farrel Bagasputra - 2206826614 - Adpro C**
 <br><br>
 
