@@ -12,3 +12,7 @@ Dengan url yang digunakan sama oleh subscriber dan publisher, berarti mereka mem
 ### Running RabbitMQ as message broker
 <img src = "images/runningRabbitMQ.png"> <br>
 
+### Sending and Processing Event
+<img src = "images/SendingAndProcessing.png">
+
+Pada saat kita menjalankan `cargo run` pada `publisher` dan `subscriber`, maka publisher akan mengirimkan data ke message broker (RabbitMQ) dan message broker (RabbitMQ) akan meneruskannya ke subscriber. Subscriber akan menerima data tersebut dan melakukan proses sesuai dengan data yang diterima. Proses tersebut dapat kita lihat dari screenshot console diatas.
